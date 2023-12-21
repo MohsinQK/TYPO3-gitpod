@@ -6,9 +6,15 @@
         "platform": {
             "php": "7.4.1"
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "typo3/class-alias-loader": true,
+            "typo3/cms-composer-installers": true
+        }
     },
     "require": {
+        "in2code/powermail": "^10.7",
+        "in2code/powermail_cond": "^10.1",
         "typo3/cms-backend": "^11.1",
         "typo3/cms-belog": "^11.1",
         "typo3/cms-beuser": "^11.1",
@@ -25,6 +31,7 @@
         "typo3/cms-impexp": "^11.1",
         "typo3/cms-info": "^11.1",
         "typo3/cms-install": "^11.1",
+        "typo3/cms-introduction": "^4.5",
         "typo3/cms-recordlist": "^11.1",
         "typo3/cms-rte-ckeditor": "^11.1",
         "typo3/cms-seo": "^11.1",
